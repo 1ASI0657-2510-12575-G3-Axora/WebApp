@@ -7,7 +7,7 @@ import { Facility } from '../model/facility-model/facility.model';
   providedIn: 'root'
 })
 export class FacilityServiceService {
-  BaseUrl: string = 'https://app-prod-01-dittobox-argeesg8era0c7ex.eastus-01.azurewebsites.net/api/v1';
+  BaseUrl: string = 'https://qualifood-drdhe0gdcaafdkhz.westus2-01.azurewebsites.net/api/v1';
 
   constructor(private http: HttpClient) {}
 
