@@ -1,10 +1,10 @@
 <form (submit)="registerOwner()">
   <div class="input-field">
-    <label for="firstname">{{ 'FIRST_NAME' | translate }}</label>
+    <label for="firstname">First Name</label>
     <input id="firstname" name="firstname" [(ngModel)]="user.firstName" type="text" required />
   </div>
   <div class="input-field">
-    <label for="lastname">{{ 'LAST_NAME' | translate }}</label>
+    <label for="lastname">Last Name</label>
     <input id="lastname" name="lastname" [(ngModel)]="user.lastName" type="text" required />
   </div>
   <div class="input-field">
@@ -12,7 +12,7 @@
     <input id="username" name="username" [(ngModel)]="user.username" type="text" required />
   </div>
   <div class="input-field">
-    <label for="email">{{ 'EMAIL' | translate }}</label>
+    <label for="email">Email</label>
     <input id="email" name="email" [(ngModel)]="user.email" type="email" required />
   </div>
   <div class="input-field">
