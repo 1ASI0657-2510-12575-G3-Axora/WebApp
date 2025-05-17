@@ -8,7 +8,7 @@ import {Account} from "../../settings/model/account/account.entity";
   providedIn: 'root'
 })
 export class AccountServiceService {
-  BaseUrl: string = 'https://app-prod-01-dittobox-argeesg8era0c7ex.eastus-01.azurewebsites.net';
+  BaseUrl: string = 'https://qualifood-drdhe0gdcaafdkhz.westus2-01.azurewebsites.net';
 
   constructor(private http: HttpClient) {}
 
