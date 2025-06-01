@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'DittoBox-WebApp' title`, () => {
+  it(`should have the 'QualiFood-WebApp' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('DittoBox-WebApp');
+    expect(app.title).toEqual('QualiFood-WebApp');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, DittoBox-WebApp');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, QualiFood-WebApp');
   });
 });

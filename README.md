@@ -1,1 +1,1 @@
-# DittoBox-WebApp
+# QualiFood-WebApp
