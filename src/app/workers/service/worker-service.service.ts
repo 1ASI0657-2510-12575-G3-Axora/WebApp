@@ -7,7 +7,7 @@ import { Observable } from "rxjs";
 })
 export class WorkerServiceService {
 
-  Baseurl: string = 'https://qualifood-drdhe0gdcaafdkhz.westus2-01.azurewebsites.net/api/v1';
+  Baseurl: string = 'https://qualifood-app-a3dtarcmg4defzd5.westcentralus-01.azurewebsites.net/api/v1';
 
   constructor(private http: HttpClient) { }
 

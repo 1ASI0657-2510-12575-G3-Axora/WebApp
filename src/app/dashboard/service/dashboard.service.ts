@@ -6,7 +6,7 @@ import {HttpClient} from "@angular/common/http";
   providedIn: 'root'
 })
 export class DashboardService {
-  private baseUrl = 'https://qualifood-drdhe0gdcaafdkhz.westus2-01.azurewebsites.net/api/v1/account';
+  private baseUrl = 'https://qualifood-app-a3dtarcmg4defzd5.westcentralus-01.azurewebsites.net/api/v1/account';
 
   constructor( private http: HttpClient) {}
 

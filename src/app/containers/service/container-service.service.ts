@@ -10,7 +10,7 @@ import { Container } from "../model/container-model/container.entity";
 })
 export class ContainerServiceService {
 
-  DevBaseurl: string = 'https://qualifood-drdhe0gdcaafdkhz.westus2-01.azurewebsites.net/api/v1';
+  DevBaseurl: string = 'https://qualifood-app-a3dtarcmg4defzd5.westcentralus-01.azurewebsites.net/api/v1';
 
   // to manage the templates selection
   private templateSource = new BehaviorSubject<any>(null);

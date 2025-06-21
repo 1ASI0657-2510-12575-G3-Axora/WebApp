@@ -15,7 +15,7 @@ import {Account} from "../model/account/account.entity";
 	providedIn: 'root'
 })
 export class SettingServiceService {
-	DevBaseurl: string = 'https://qualifood-drdhe0gdcaafdkhz.westus2-01.azurewebsites.net/api/v1';
+	DevBaseurl: string = 'https://qualifood-app-a3dtarcmg4defzd5.westcentralus-01.azurewebsites.net/api/v1';
 
 	private loadingSource = new BehaviorSubject<boolean>(false);
 	loading$ = this.loadingSource.asObservable();
